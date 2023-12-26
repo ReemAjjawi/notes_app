@@ -16,7 +16,7 @@ class NotesApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark, fontFamily: 'Poppins'),
-      home: NotesView(),
+      home: const NotesView(),
     );
   }
 }
